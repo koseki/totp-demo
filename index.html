@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>TOTP DEMO</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+		<h1>TOTP DEMO</h1>
+    <div style="margin: 30px">
+      <canvas id="qrcode"></canvas>
+      <div><code>Key (Base32): <input id="key" value="JBSWY3DPEHPK3PXP" size="100"></code></div>
+      <div><code>Current Key: <span id="currentkey"></span></div>
+      <div id="timer" style="margin-top: 10px; font-weight: bold; font-size: 1.5em"></div>
+      <div id="app"></div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+
+</html>
